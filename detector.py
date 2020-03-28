@@ -21,7 +21,7 @@ class RTAS():
 		self.unknown='?'
 		self.mindist=0.4
 		self.metadata={}
-		self.password='Ap31cp5767*' # ubuntu password
+		self.password='' # ubuntu password
 		self.traindata()
 
 	def getfeatures(self, img):
