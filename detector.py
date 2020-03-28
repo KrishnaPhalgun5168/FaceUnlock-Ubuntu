@@ -71,8 +71,6 @@ class RTAS():
 					if labels and self.label in labels:
 						sys.stdout = open('output.txt', 'w')
 						print(self.password)
-						os.system("python3 unlock.py")
-						os.system("rm output.txt")
 						break
 				if cv2.waitKey(1) & 0xFF == 27:
 					break

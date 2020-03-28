@@ -4,3 +4,4 @@ with open('output.txt', 'r') as file:
 	#print(password, len(password))
 	pyautogui.typewrite(password)
 	pyautogui.press('enter')
+	print('unlocked')
