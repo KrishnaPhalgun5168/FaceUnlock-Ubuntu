@@ -1,5 +1,6 @@
 # Hello-Ubuntu
 #Ubuntu18.04 #FaceAuthentication #MTCNN #Keras #VGGFace #Open-CV #Scipy #Bash
+tested on Ubuntu 18.04
 </br>
 1. copy user pics in pictures folder
 2. set user password in detector.py
