@@ -1,5 +1,4 @@
 import cv2, sys
-sys.stdout = open('output.txt', 'w')
 #import pkg_resources
 from os import listdir, path
 from mtcnn.mtcnn import MTCNN
@@ -16,13 +15,13 @@ network = VGGFace(model='resnet50', include_top=False, input_shape=(224, 224, 3)
 class RTAS():
 
 	def __init__(self):
-		self.path='target/'
+		self.path='pictures/'
 		self.label='target'
 		self.size=(224, 224)
 		self.unknown='?'
 		self.mindist=0.4
 		self.metadata={}
-		self.password='' # ubuntu password
+		self.password='Ap31cp5767*' # ubuntu password
 		self.traindata()
 
 	def getfeatures(self, img):
@@ -63,15 +62,23 @@ class RTAS():
 			return labels
 
 	def upload(self):
-		cap = cv2.VideoCapture(-1)
-		while(True):
-			ret, frame = cap.read()
-			if ret:
-				labels = self.recognizefaces(image.img_to_array(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)))
-				if labels and self.label in labels:
-					print(self.password)
+		if self.metadata:
+			cap = cv2.VideoCapture(-1)
+			while(True):
+				ret, frame = cap.read()
+				if ret:
+					labels = self.recognizefaces(image.img_to_array(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)))
+					if labels and self.label in labels:
+						sys.stdout = open('output.txt', 'w')
+						print(self.password)
+						os.system("python3 unlock.py")
+						os.system("rm output.txt")
+						break
+				if cv2.waitKey(1) & 0xFF == 27:
 					break
-		cap.release()
+			cap.release()
+		else:
+			print("message: no faces in pictures")
 
 if __name__ == "__main__":
 	recognizer = RTAS()
