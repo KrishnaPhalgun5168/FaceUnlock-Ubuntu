@@ -5,9 +5,9 @@
 </br>
 2. set user password in detector.py
 </br>
-3. bash unlock.sh (can be automated by ![Startup Applications](https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en)
+3. bash unlock.sh (can be automated by ![Startup Applications](https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en))
 </br>
-#**Warning: no depth perception** (can be unlocked by using photos; no face required)
+**#Warning: no depth perception** (can be unlocked by using photos; no face required)
 </br>
 working: ![snapshots](https://github.com/KrishnaPhalgun5168/Hello-Ubuntu/blob/master/working.pdf)
 </br>
