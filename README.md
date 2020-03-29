@@ -8,7 +8,7 @@ inspired by Windows Hello; tested on Ubuntu 18.04;
 3. bash unlock.sh (can be automated by Startup Applications;
 https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en)
 
-**Warning: no depth perception** (can be unlocked by using photos; no face required)
+**Warning: no depth perception** (can be unlocked by using digital photos)
 </br>
 snapshots: https://github.com/KrishnaPhalgun5168/Hello-Ubuntu/blob/master/working.pdf
 </br>
