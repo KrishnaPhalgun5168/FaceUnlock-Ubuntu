@@ -10,5 +10,5 @@ https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en)
 
 **Warning: no depth perception** (can be unlocked by using digital photos)
 </br>
-snapshots: https://github.com/KrishnaPhalgun5168/Hello-Ubuntu/blob/master/working.pdf
+Preview: https://github.com/KrishnaPhalgun5168/Hello-Ubuntu/blob/master/working.pdf
 </br>
