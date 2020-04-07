@@ -1,4 +1,4 @@
-# Hello-Ubuntu
+# FaceUnlock-Ubuntu
 #Ubuntu18.04 #FaceAuthentication #MTCNN #Keras #VGGFace #Open-CV #Scipy #Bash
 </br>
 inspired by Windows Hello; tested on Ubuntu 18.04;
