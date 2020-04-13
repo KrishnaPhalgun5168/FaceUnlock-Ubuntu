@@ -9,6 +9,3 @@ inspired by Windows Hello; tested on Ubuntu 18.04;
 https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en)
 
 **Warning: no depth perception** (can be unlocked by using digital photos)
-</br>
-Preview: https://github.com/KrishnaPhalgun5168/Hello-Ubuntu/blob/master/working.pdf
-</br>
